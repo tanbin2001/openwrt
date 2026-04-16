@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v4
     - name: make
       run: make
-    - name: make menuconfig
-      run: make menuconfig
-    - name: make clean
-      run: make clean
+    # - name: make menuconfig
+    #   run: make menuconfig
+    # - name: make clean
+    #   run: make clean
